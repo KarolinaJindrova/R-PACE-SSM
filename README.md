@@ -53,3 +53,29 @@ All variables are appended to the extended lap-level dataset produced in Step 1.
 Install via pip:
 ```bash
 pip install fastf1 pandas numpy
+
+## 📂 Output
+
+Processed datasets are saved to:
+laps_output/{year}_{location}_{session_type}/
+├── laps_extended_{year}_{location}_{session_type}.csv
+├── VER.csv   # one for each driver abbreviation
+
+Each file contains lap-by-lap variables ready for modeling.
+
+---
+
+## 📌 Notes
+
+- SC/VSC flags must be manually specified inside `01_prepare_race_data.py` if applicable.
+
+---
+
+## 🧠 Citation and Acknowledgements
+
+This repository supports the working paper:
+
+> **Modeling Race Dynamics in Formula One: A State-Space Approach for Lap Time Decomposition**  
+> *Karolína Jindrová (2025)*
+
+If you use this code or build upon it, please cite the author or link back to this repository.
