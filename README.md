@@ -53,6 +53,7 @@ All variables are appended to the extended lap-level dataset produced in Step 1.
 Install via pip:
 ```bash
 pip install fastf1 pandas numpy
+```
 
 ## 📂 Output
 
